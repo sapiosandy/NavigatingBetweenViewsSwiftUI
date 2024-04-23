@@ -9,16 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack (spacing: 25) {
+                NavigationLink {
+                    SecondView()
+                } label: {
+                    Text("Go to separate file")
+                }
+                NavigationLink {
+                    SameFileView()
+                } label : {
+                    Text("Go to structure in same file")
+                }
+            } .foregroundColor(Color.black)
         }
-        .padding()
     }
 }
 
+struct SameFileView: View {
+    var body: some View {
+        ZStack {
+            Rectangle()
+                .foregroundColor(Color.green)
+            Text("This is from the same file")
+        }
+    }
+}
 #Preview {
     ContentView()
 }

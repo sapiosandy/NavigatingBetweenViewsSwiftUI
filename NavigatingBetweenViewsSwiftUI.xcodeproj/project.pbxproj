@@ -11,6 +11,7 @@
 		AFD6658D2BD8412000DA5C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6658C2BD8412000DA5C39 /* ContentView.swift */; };
 		AFD6658F2BD8412100DA5C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD6658E2BD8412100DA5C39 /* Assets.xcassets */; };
 		AFD665922BD8412100DA5C39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD665912BD8412100DA5C39 /* Preview Assets.xcassets */; };
+		AFD665992BD8414E00DA5C39 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD665982BD8414E00DA5C39 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AFD6658C2BD8412000DA5C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFD6658E2BD8412100DA5C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD665912BD8412100DA5C39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFD665982BD8414E00DA5C39 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AFD6658A2BD8412000DA5C39 /* NavigatingBetweenViewsSwiftUIApp.swift */,
 				AFD6658C2BD8412000DA5C39 /* ContentView.swift */,
+				AFD665982BD8414E00DA5C39 /* SecondView.swift */,
 				AFD6658E2BD8412100DA5C39 /* Assets.xcassets */,
 				AFD665902BD8412100DA5C39 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD665992BD8414E00DA5C39 /* SecondView.swift in Sources */,
 				AFD6658D2BD8412000DA5C39 /* ContentView.swift in Sources */,
 				AFD6658B2BD8412000DA5C39 /* NavigatingBetweenViewsSwiftUIApp.swift in Sources */,
 			);
